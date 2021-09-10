@@ -1,0 +1,32 @@
+@import "./core/core.scss";
+@import "./common/common.scss";
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background: var(--color-mineshaft-gray);
+    color: var(--color-base-white);
+    font-family: var(--font-family);
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100vw;
+    overflow-y: auto;
+    height: 100vh;
+
+    @include scroll;
+
+    @include spacing(margin, top);
+    @include spacing(margin, right);
+    @include spacing(margin, bottom);
+    @include spacing(margin, left);
+
+    @include spacing(padding, top);
+    @include spacing(padding, right);
+    @include spacing(padding, bottom);
+    @include spacing(padding, left);
+}

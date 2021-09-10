@@ -1,0 +1,4 @@
+export const VIEW_TYPE = {
+	PORTRAIT: 'PORTRAIT',
+	LANDSCAPE: 'LANDSCAPE'
+};

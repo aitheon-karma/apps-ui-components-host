@@ -1,0 +1,41 @@
+.input-wrap {
+  padding: 8px 16px;
+  border: 1px solid #454545;
+  transition: .2s;
+  border-radius: 2px;
+  cursor: default;
+  background: #1f1f1f;
+
+  &:focus-within {
+    border-color: #dcbc65;
+  }
+
+  &:hover {
+    background: rgba(#7e7e7e, 0.15);
+  }
+
+  &--readonly {
+    .input {
+      cursor: default;
+    }
+  }
+
+  .input {
+    font-size: 14px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    transition: none;
+  }
+}
+
+.input-label {
+  color: #7e7e7e;
+  font-size: 14px;
+  margin-bottom: 8px;
+}

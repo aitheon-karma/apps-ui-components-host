@@ -1,0 +1,7 @@
+@mixin spacing($name, $side, $from: 1, $to: 8) {
+  @for $i from $from to $to{
+    .#{$name}-#{$side}--#{4 * $i} {
+      #{$name}-#{$side}: 4px * $i;
+    }
+  }
+}

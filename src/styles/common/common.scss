@@ -1,0 +1,23 @@
+@import "spacing.scss";
+@import "scroll.scss";
+
+.vue-grid-item.vue-grid-placeholder {
+  display: none;
+}
+
+.vue-grid-item.flex-container.draggable {
+  box-sizing: border-box;
+}
+
+.vue-grid-item > .vue-resizable-handle {
+  background: transparent;
+  border-color: var(--color-primary);
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  width: 8px;
+  height: 8px;
+}
+
+.overflow-hidden {
+  overflow:  hidden !important;
+}

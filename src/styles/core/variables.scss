@@ -1,0 +1,51 @@
+:root {
+  /** primary **/
+  --color-primary: #dcbc65;
+  --color-primary-rgb: 220, 188, 101;
+
+  /** primary-dark **/
+  --color-primary-dark: #c29e3e;
+  --color-primary-dark-rgb: 194, 158, 62;
+
+  /** secondary **/
+  --color-secondary: #589be9;
+
+  /** tertiary **/
+  --color-tertiary: #8C58E9;
+
+  /** success **/
+  --color-success: #67b231;
+
+  /** warning **/
+  --color-warning: #ed9438;
+
+  /** danger **/
+  --color-danger: #e96058;
+  --color-danger-rgb: 233, 96, 88;
+
+  /** base-black **/
+  --color-base-black: #1a1a1a;
+
+  /** coal-gray **/
+  --color-coal-gray: #1f1f1f;
+  --color-coal-gray-rgb: 31, 31, 31;
+
+  /** mineshaft-gray **/
+  --color-mineshaft-gray: #2b2b2b;
+
+  /** lightcoal-gray **/
+  --color-lightcoal-gray: #383838;
+
+  /** tundora-gray **/
+  --color-tundora-gray: #454545;
+
+  /** base-gray **/
+  --color-base-gray: #7e7e7e;
+  --color-base-gray-rgb: 126, 126, 126;
+
+  /** base-white **/
+  --color-base-white: #ffffff;
+
+  /** font-family **/
+  --font-family: "ProximaNova", "Roboto", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+}

@@ -1,0 +1,11 @@
+@mixin scroll {
+  &::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 2px !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-tundora-gray) !important;
+    border-radius: 2px !important;
+  }
+}
